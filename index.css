@@ -1,0 +1,15 @@
+
+body {
+  margin: 0;
+  background-color: #f9fafb;
+  color: #111827;
+}
+section {
+  margin-top: 2rem;
+}
+a {
+  color: #2563eb;
+}
+a:hover {
+  text-decoration: underline;
+}
