@@ -1,87 +1,115 @@
-<!DOCTYPE html><html lang="id">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Adrian Darion Portfolio</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      background-color: #f4f4f4;
-      color: #333;
-    }
-    header {
-      background-color: #111827;
-      color: white;
-      padding: 20px;
-      text-align: center;
-    }
-    section {
-      padding: 20px;
-      max-width: 800px;
-      margin: auto;
-    }
-    h2 {
-      color: #111827;
-    }
-    .profile-img {
-      width: 150px;
-      border-radius: 50%;
-      display: block;
-      margin: 10px auto;
-    }
-    .project {
-      background: white;
-      padding: 15px;
-      border-radius: 8px;
-      margin-bottom: 15px;
-      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    }
-    footer {
-      background-color: #111827;
-      color: white;
-      text-align: center;
-      padding: 10px;
-      margin-top: 40px;
-    }
-    a {
-      color: #2563eb;
-      text-decoration: none;
-    }
-  </style>
-</head>
-<body>
-  <header>
-    <h1>Adrian Darion</h1>
-    <p>Adrian Darion Portfolio</p>
-  </header>  <section>
-    <img src="profile.jpg" alt="Foto Adrian" class="profile-img" />
-    <h2>Tentang Saya</h2>
-    <p>Saya adalah Adrian Darion yang sekolah di SMP Gembala Baik. Saya suka di bidang IT, termasuk coding.</p><h2>Pendidikan</h2>
-<p>SMP Gembala Baik</p>
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Adrian Darion Portfolio</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        font-family: 'Poppins', sans-serif;
+      }
+      body {
+        background: radial-gradient(ellipse at bottom, #0f172a 0%, #0a0f1c 100%);
+        color: #ffffff;
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        position: relative;
+      }
+      .stars {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: url('https://raw.githubusercontent.com/VincentGarreau/particles.js/master/demo/media/stars.png');
+        background-size: cover;
+        z-index: 0;
+      }
+      .container {
+        text-align: center;
+        padding: 2rem;
+        position: relative;
+        z-index: 1;
+      }
+      .profile-img {
+        width: 160px;
+        height: 160px;
+        border-radius: 50%;
+        object-fit: cover;
+        border: 3px solid #38bdf8;
+        margin-bottom: 1rem;
+        box-shadow: 0 0 20px #38bdf8;
+      }
+      h1 {
+        font-size: 2.5rem;
+        color: #ffffff;
+        text-shadow: 0 0 10px #38bdf8;
+      }
+      h2 {
+        font-size: 1.2rem;
+        margin-top: 0.5rem;
+        color: #94a3b8;
+        letter-spacing: 1px;
+      }
+      p {
+        color: #e2e8f0;
+        max-width: 600px;
+        margin: 0.5rem auto;
+      }
+      .btn-group {
+        margin-top: 1.5rem;
+      }
+      .btn {
+        background-color: #0ea5e9;
+        border: none;
+        padding: 0.7rem 1.5rem;
+        margin: 0.5rem;
+        color: #fff;
+        font-weight: bold;
+        border-radius: 30px;
+        cursor: pointer;
+        transition: 0.3s;
+      }
+      .btn:hover {
+        background-color: #0284c7;
+      }
+      .social-icons {
+        margin-top: 1.5rem;
+      }
+      .social-icons a {
+        margin: 0 10px;
+        color: #38bdf8;
+        font-size: 1.5rem;
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="stars"></div>
+    <div class="container">
+      <img src="profile.jpg" alt="Foto Adrian" class="profile-img" />
+      <h1>Adrian Darion</h1>
+      <h2>FULL STACK DEVELOPER</h2>
+      <p>Saya menciptakan solusi digital inovatif yang menggabungkan desain indah dengan fungsionalitas yang kuat. Mari buat sesuatu yang luar biasa bersama.</p>
 
-<h2>Keahlian</h2>
-<ul>
-  <li>Coding</li>
-</ul>
+      <div class="btn-group">
+        <a href="mailto:drizzznoles@gmail.com" class="btn">Hire Me</a>
+        <a href="https://adriandarion.github.io/Adrian-Darion-8D/" target="_blank" class="btn">Explore Work</a>
+      </div>
 
-<h2>Proyek</h2>
-<div class="project">
-  <strong>Web Kelas 8D</strong>
-  <p>Deskripsi: Web by Adrian</p>
-  <a href="https://adriandarion.github.io/Adrian-Darion-8D/" target="_blank">Lihat Proyek</a>
-</div>
-
-<h2>Kontak</h2>
-<ul>
-  <li>Email: <a href="mailto:drizzznoles@gmail.com">drizzznoles@gmail.com</a></li>
-  <li>GitHub: <a href="https://github.com/AdrianDarion" target="_blank">AdrianDarion</a></li>
-  <li>Telepon: 0895 0907 5062</li>
-</ul>
-
-  </section>  <footer>
-    &copy; 2025 Adrian Darion
-  </footer>
-</body>
+      <div class="social-icons">
+        <a href="https://instagram.com" target="_blank">📷</a>
+        <a href="https://wa.me/6289509075062" target="_blank">💬</a>
+        <a href="https://github.com/AdrianDarion" target="_blank">🐱</a>
+      </div>
+    </div>
+  </body>
 </html>
